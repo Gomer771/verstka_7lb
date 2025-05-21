@@ -1,7 +1,7 @@
 
 body {
   
-  font-family: "Roboto", sans-serif;
+  font-family: "Noto Sans", sans-serif;
   font-weight: 400;
   font-style: normal;
   font-size: 18px;
@@ -72,7 +72,7 @@ body {
 .hero__title {
   max-width: 484px;
   font-size: 62px;
-  font-family: "Archangelsk", sans-serif;
+  font-family: "Archangelsk";
   line-height: 63.3px;
   font-weight: 400;
 }
@@ -281,6 +281,7 @@ body {
   top: 0;
   left: 0;
   right: 0;
+
 }
 
 .full__inner {
@@ -315,7 +316,7 @@ body {
 
 .full__title {
   font-size: 62px;
-  font-family: "Archangelsk", sans-serif;
+  font-family: "Archangelsk";
   line-height: 63.3px;
   font-weight: 400;
 }

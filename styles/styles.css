@@ -19,7 +19,7 @@ body {
 .top {
   width: 100%;
   height: 1000px;
-  background-image: url(../assets/bg-img-1.jpg);
+  background-image: url(../assets/11\ \(1\).svg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -281,7 +281,6 @@ body {
   top: 0;
   left: 0;
   right: 0;
-  height: 70px;
 }
 
 .full__inner {
@@ -563,4 +562,3 @@ label {
 legend {
   display: block;
 }
-

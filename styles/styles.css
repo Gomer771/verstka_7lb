@@ -39,11 +39,8 @@ body {
 .header__logo {
   cursor: pointer;
 }
-
 .header__menu {
   display: flex;
-  justify-content: center;
-  align-items: center;
   gap: 40px;
 }
 
@@ -452,40 +449,13 @@ body {
   color: #fff;
 }
 
-
 .blue {
   color: #52bedc;
-}
-
-* {
   padding: 0px;
   margin: 0px;
   border: none;
 }
 
-*,
-*::before,
-*::after {
-  box-sizing: border-box;
-}
-
-
-a,
-a:link,
-a:visited {
-  text-decoration: none;
-}
-
-a:hover {
-  text-decoration: none;
-}
-
-
-
-
-
-
-img,
 svg {
   max-width: 100%;
   height: auto;

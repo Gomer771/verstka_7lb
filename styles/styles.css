@@ -27,7 +27,8 @@ body {
   flex-direction: column;
   justify-content: space-between;
   align-items: normal;
-}
+
+  }
 
 .header__inner {
   display: flex;
@@ -74,18 +75,25 @@ body {
   font-weight: 400;
 }
 
-.hero__btn:hover {
-  margin-top: 25px;
-  padding: 19px 50px;
-  background-color: #000;
-  font-size: 24px;
+.hero__btn {
+  display: flex;
+  border: none;
+  color:#F8F200;
+  background-color: black;
   font-weight: 700;
+  font-size: 24px;
   line-height: 40px;
-  color: #f8f200;
+  align-items: center;
+  justify-content: space-around;
+  width: 272px;
+  height: 78px;
   cursor: pointer;
-  
+  transition: transform 0.3s ease;
 }
 
+.hero__btn:hover {
+  transform: scale(1.2);
+}
 .about {
   background-color: #fff;
 }
@@ -112,26 +120,42 @@ body {
   gap: 32px;
 }
 
+
+
 .about__img {
   width: 100%;
   height: 100%;
+  
 }
 
 .img-1 {
-  grid-column: 1/2;
-  grid-row: 1/2;
+  transition: transform 0.3s ease;
 }
+
+.img-1:hover {
+  transform: scale(1.1)
+}
+
 
 .img-2 {
   grid-column: 2/4;
   grid-row: 1/3;
+  transition: transform 0.3s ease;
 }
+
+.img-2:hover:hover {
+  transform: scale(1.1)
+}
+
 
 .img-3 {
-  grid-column: 1/2;
-  grid-row: 2/3;
+  display: grid;
+  transition: transform 0.3s ease;
 }
 
+.img-3:hover {
+  transform: scale(1.1)
+}
 
 
 .play {
@@ -222,6 +246,11 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  transition: transform 0.3s ease;
+}
+
+.play__file-box:hover {
+  transform: scale(1.1)
 }
 
 .play__file-title {
@@ -245,6 +274,11 @@ body {
   font-size: 18px;
   font-weight: 700;
   line-height: 21px;
+  transition: transform 0.3s ease;
+}
+
+.play__btn:hover {
+  transform: scale(1.1)
 }
 
 .game__checkbow-wrapper {
@@ -344,9 +378,12 @@ body {
   font-size: 18px;
   font-weight: 700;
   line-height: 21px;
+  transition: transform 0.3s ease;
 }
 
-
+.full__btn:hover {
+  transform: scale(1.1)
+}
 
 .game {
   display: grid;

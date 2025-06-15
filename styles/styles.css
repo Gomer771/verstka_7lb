@@ -468,8 +468,19 @@ body {
   align-items: center;
   gap: 32px;
 }
-
-
+.nav__link {
+  
+  margin-right: 20px;
+  color: rgb(96, 96, 96);
+  font-family: "Inter", sans-serif;
+  font-size: 18.83px;
+  font-weight: 500;
+  line-height: 50.74px;
+  text-decoration: none;
+}
+html {
+  scroll-behavior: smooth;
+}
 
 .copyright {
   background-color: #000;
